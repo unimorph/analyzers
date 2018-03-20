@@ -15,7 +15,7 @@ This is an **alpha** release.
 
 ## Installation
 
-Uncompress DTL models into models/DTL directory.
+Uncompress DTL models into models/DTL directory. See **releases** tab above to download.
 
 ```
 tar -xvzf DTLmodels.tgz

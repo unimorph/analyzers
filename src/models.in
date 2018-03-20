@@ -1,4 +1,4 @@
-amharic	NA	NA	NA	UD
+amharic	../wordlists/amharic	NA	NA	UD
 arabic	../wordlists/arabic	../models/NN/ara_release_model_v1.0.t7	NA	UD
 bengali	../wordlists/bengali	NA	NA	UM
 hindi	../wordlists/hindi	 ../models/NN/hin_release_model_v1.0.t7	NA	UM

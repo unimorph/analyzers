@@ -1,0 +1,148 @@
+UD	UniMorph	Issue	Message
+Person=0	0		
+Person=1	1		
+Person=2	2		
+Person=3	3		
+Person=4	4	Yes	@haijme: in UniMorph, 4th person is a "catch-all" category, while 4th in UD is dedicated to Proximate/Obiviate difference like Navajo. Some linguists (including linguists for Ainu) use 4th to denote the "logophoric" person. In her typological textbook, Siewierska (2004) claimed that 4th is not a meaningful category. 
+Gender=Masc	MASC		
+Gender=Fem	FEM		
+Gender=Neut	NEUT		
+Gender=Com	MASC+FEM	Yes	
+Animacy=Anim	ANIM		There are cases of, e.g., "ANIM;ACC" as well as "ACC;ANIM"... is this relevant? @jcsg: The ordering isn't important.
+Animacy=Hum	HUM		
+Animacy=Inan	INAN		
+Animacy=Nhum	NHUM		
+Case=Nom	NOM		
+Case=Acc	ACC		
+Case=Abs	ABS		
+Case=Erg	ERG		
+Case=Dat	DAT		
+Case=Gen	GEN		
+Case=Voc	VOC		
+Case=Loc	ESS	Yes	@jcsg: ESS means "stationarily located" and leaves the issue of in/on/at underspecified.
+Case=Par	PRT		
+Case=Dis	DIST	Yes	@jcsg: If this doesn't occur outside of Hungarian, it'd be appropriate to use a LGSPEC feature. If it is used by other languages, I'd propose a case feature DISTR.
+Case=Ess	FRML		
+Case=Tra	TRANS		
+Case=Com	COM		
+Case=Abe	PRIV		
+Case=Ine	IN+ESS		@jcsg: The annotations with the ??? marks were all right!
+Case=Ill	IN+ALL		
+Case=Ela	IN+ABL		
+Case=Add	IN+ALL;LGSPEC1		@jcsg: This is either semantically the same as illative (IN+ALL) or very slightly different, in which case it could have a LGSPEC feature in addition to (IN+ALL). UD link: http://universaldependencies.org/u/feat/all.html#Add
+Case=All	AT+ALL		
+Case=Abl	AT+ABL		
+Case=Sup	ON+ESS		
+Case=Sub	ON+ALL		
+Case=Del	LGSPEC2	Yes	
+Case=Lat	LGSPEC3	Yes	
+Case=Tem	LGSPEC4	Yes	
+Case=Ter	LGSPEC5	Yes	
+Case=Cau	LGSPEC6	Yes	
+Case=Ben	BEN		
+Case=Cmp	COMPV		
+Case=Equ	EQTV		
+Case=Ins	INS		
+Case=Ade	AT+ESS
+Definite=Ind	INDF		
+Definite=Spec	SPEC		
+Definite=Def	DEF		
+Definite=Cons	PSSD		
+Definite=Com	LGSPEC7	Yes	
+Degree=Abs	AB		
+Degree=Cmp	CMPR		@hajime Unimorph COMPV is UD Case=Cmp
+Degree=Equ	EQT		@hajime Unimorph EQTV is UD Case=Equ
+Degree=Pos	LGSPEC8	Yes	@hajime UD positive is a kind of "base" values; no counterpart in the UniMorph comparison dimension
+Degree=Sup	RL		@hajime UD superlative requires comparison ("The quality of one object is compared to the same quality of all other objects within a set."), so its counterpart in UniMorph is RL  (rather than RL+AB)
+Mood=Ind	IND		
+Mood=Imp	IMP		
+Mood=Cnd	COND		
+Mood=Pot	POT		
+Mood=Sub	SBJV		
+Mood=Jus	IMP		
+Mood=Prp	PURP		
+Mood=Qot	QUOT		
+Mood=Opt	OPT		
+Mood=Des	LGSPEC9	Yes	
+Mood=Nec	LGSPEC10	Yes	
+Mood=Adm	ADM		
+Evident=Fh	FH		
+Evident=Nfh	NFH		
+Number=Sing	SG		
+Number=Plur	PL		
+Number=Dual	DU		
+Number=Tri	TRI		
+Number=Pauc	PAUC		
+Number=Grpa	GRPA		
+Number=Grpl	GRPL		
+Number=Inv	INVN		
+Number=Count	LGSPEC11	Yes	
+Number=Ptan	LGSPEC12	Yes	
+Number=Coll	LGSPEC13	Yes	
+Polite=Elev	ELEV		
+Polite=Form	FORM		
+Polite=Humb	HUMB		
+Polite=Infm	INFM		
+Polarity=Pos	POS		
+Polarity=Neg	NEG		
+VerbForm=Fin	FIN		
+VerbForm=Inf	NFIN		
+VerbForm=Sup	SUP		
+VerbForm=Part	V.PTCP	Yes	
+VerbForm=Conv	V.CVB	Yes	
+VerbForm=Gdv	V.CVB	Yes	
+VerbForm=Ger	V.MSDR	Yes	
+VerbForm=Vnoun	V.MSDR	Yes	
+VerbForm=Short	LGSPEC1		
+Tense=Fut	FUT		
+Tense=Imp	IPFV		
+Tense=Past	PST		
+Tense=Pqp	PST+PRF		@hajime Pluperfect is past perfect (Comrie, 1976:53).
+Tense=Pres	PRS		
+Aspect=Hab	HAB		
+Aspect=Imp	IPFV		
+Aspect=Iter	ITER		
+Aspect=Perf	PFV		
+Aspect=Prog	PROG		
+Aspect=Prosp	PROSP		
+Voice=Act	ACT		
+Voice=Mid	MID		
+Voice=Pass	PASS		
+Voice=Antip	ANTIP		
+Voice=Dir	DIR		
+Voice=Inv	INV		
+Voice=Rcp	RECP		
+Voice=Cau	CAUS		
+Reflex=Yes	REFL		
+Poss=Yes		Yes	@jcsg: This is an area where there is a core difference between UD and UniMorph. UniMorph uses composed features of PSS+1+S = the feature PSS1S = "my". UD combines this Poss=Yes with person and other features. UniMorph uses composite tags to avoid needing to disambiguate person as a verb actant and person as a possessor. This may be an issue for inflected, non-finite verbs, but may not be. If the UD proposal is viable for UniMorph, we could adopt that practice since there is a core POS division between verbal parts of speech and nominal parts of speech.
+NumType=Card	LGSPEC14	Yes	@hajime: the current UniMorph draft doesn't have the NumType dimension
+NumType=Dist	LGSPEC15	Yes	
+NumType=Frac	LGSPEC16	Yes	
+NumType=Mult	LGSPEC17	Yes	
+NumType=Ord	LGSPEC18	Yes	@hajime: "Where appropriate, ordinal numerals (first, second, etc.) often behave as adjectives and should be classified as such." (UniMorph draft, p. 40)
+NumType=Range	LGSPEC19	Yes	
+NumType=Sets	LGSPEC20	Yes	
+PronType=Art	LGSPEC21		
+ADV	ADV	
+PRON	PRON	
+VERB	V	
+ADP	ADP	
+DET	DET	
+NOUN	N	
+ADJ	ADJ	
+SCONJ	CONJ	
+CCONJ	CONJ	
+PUNCT	PUNCT	
+NUM	NUM	
+AUX	V	
+PROPN	PNOUN	
+X	X	
+SYM	SYM	
+PART	PART	
+INTJ	INTJ	
+PronType=Neg	NEG
+Case=Acc,Ine	ACC
+Case=Acc,Erg	ACC;ERG
+Case=Acc,Dat	ACC;DAT
+Case=Acc,Ins	ACC
+Case=Acc,Gen	ACC;GEN

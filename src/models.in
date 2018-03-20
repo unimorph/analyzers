@@ -1,0 +1,15 @@
+amharic	NA	NA	NA	UD
+arabic	../wordlists/arabic	NA	NA	UD
+bengali	../wordlists/bengali	NA	NA	UM
+hindi	../wordlists/hindi	 ../models/NN/hin_release_model_v1.0.t7	NA	UM
+hungarian	../wordlists/hungarian	NA	HUN.model.12	UD
+indonesian	../wordlists/indonesian	../models/NN/ind_release_model_v1.0.t7	NA	UD
+persian	../wordlists/persian	NA	NA	UD
+romanian	../wordlists/romanian	NA	NA	UM
+russian	../wordlists/russian	NA	NA	UD
+spanish	../wordlists/spanish	NA	NA	UD
+swahili ../wordlists/swahili	../models/NN/swa_release_model_v1.0.t7	NA	UM
+tagalog	../wordlists/tagalog	../models/NN/tag_release_model_v1.0.t7	NA	Tagalog	
+tamil	../wordlists/tamil	../models/NN/tam_release_model_v1.0.t7	NA	UD
+welsh	../wordlists/welsh	NA	CYM.model.13	UM
+zulu	../wordlists/zulu	NA	NA	UM

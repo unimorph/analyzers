@@ -44,5 +44,5 @@ python analyze.py -i Welsh.toAnalyze -a Welsh.out -l welsh
 ## Supported Languages
 
 ```
-arabic, hungarian, russian, romanian, hindi, swahili, welsh, ...
+amharic, arabic, bengali, farsi, hindi, hungarian, indonesian, romanian, russian, spanish, swahili, tagalog, tamil, welsh, zulu ...
 ```

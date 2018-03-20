@@ -3,7 +3,7 @@ Runnable Morphological Analysis Tools from the UniMorph Project
 
 ## Warning
 
-This is an **alpha** release. 
+This is in an **alpha** stage. 
 
 ## Prerequisites
 
@@ -18,7 +18,7 @@ This is an **alpha** release.
 Uncompress DTL models into models/DTL directory. See **releases** tab above to download.
 
 ```
-tar -xvzf DTLmodels.tgz
+tar -xvzf DTLModel.tgz
 ```
 
 Set environment variables to point to required binaries.

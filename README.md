@@ -3,7 +3,7 @@ Runnable Morphological Analysis Tools from the UniMorph Project
 
 ## Warning
 
-This is in an **alpha** stage. 
+This software is at an **alpha** stage. 
 
 ## Prerequisites
 
@@ -44,5 +44,8 @@ python analyze.py -i Welsh.toAnalyze -a Welsh.out -l welsh
 ## Supported Languages
 
 ```
-amharic, arabic, bengali, farsi, hindi, hungarian, indonesian, romanian, russian, spanish, swahili, tagalog, tamil, welsh, zulu ...
+amharic, arabic, bengali, farsi, hindi, 
+hungarian, indonesian, romanian, russian, 
+spanish, swahili, tagalog, tamil, welsh, 
+zulu, ...
 ```

@@ -1,6 +1,10 @@
 # analyzers
 Runnable Morphological Analysis Tools from the UniMorph Project
 
+## Warning
+
+This is an **alpha** release. 
+
 ## Prerequisites
 
 [DirecTL+](https://github.com/GarrettNicolai/DTL)

@@ -38,8 +38,6 @@ import os
 from optparse import OptionParser
 from subprocess import call
 
-os.environ["NN"] = "/home/ckirov/CTranslate/build/cli/translate"
-os.environ["DTL"] = "/home/gnicolai/Tools/DTLActive/directlpCopy"
 
 
 #Get Options
@@ -166,7 +164,7 @@ intermediateFile.close()
 
 if models["NN"] != "NA":
     try:
-        call([os.environ["NN"], "--model", models["NN"], "--batch_size", "64", "--beam_size", "12", "--src", "toAnalyze.txt", "--tgt", "analyzed.nn.out"])
+        call([os.environ["CTRANSLATE"], "--model", models["NN"], "--batch_size", "64", "--beam_size", "12", "--src", "toAnalyze.txt", "--tgt", "analyzed.nn.out"])
         if(models["Format"] == "UD"):
             call(["python", "../scripts/postprocessUDNetOutput.py", "toAnalyze.txt", "analyzed.nn.out", "analyzed.out2"])
 	elif(models["Format"] == "UM"):

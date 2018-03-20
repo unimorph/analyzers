@@ -14,7 +14,7 @@ Runnable Morphological Analysis Tools from the UniMorph Project
 Uncompress DTL models into models/DTL directory.
 
 ```
-tar -xvzf DTLmodel.tgz
+tar -xvzf DTLmodels.tgz
 ```
 
 Set environment variables to point to required binaries.

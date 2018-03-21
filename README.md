@@ -3,7 +3,7 @@ Runnable Morphological Analysis Tools from the UniMorph Project
 
 ## Warning
 
-This is an **alpha** release. 
+This software is at an **alpha** stage. 
 
 ## Prerequisites
 
@@ -15,10 +15,10 @@ This is an **alpha** release.
 
 ## Installation
 
-Uncompress DTL models into models/DTL directory.
+Uncompress DTL models into models/DTL directory. See **releases** tab above to download.
 
 ```
-tar -xvzf DTLmodels.tgz
+tar -xvzf DTLModel.tgz
 ```
 
 Set environment variables to point to required binaries.
@@ -44,5 +44,8 @@ python analyze.py -i Welsh.toAnalyze -a Welsh.out -l welsh
 ## Supported Languages
 
 ```
-arabic, hungarian, russian, romanian, hindi, swahili, welsh, ...
+amharic, arabic, bengali, farsi, hindi, 
+hungarian, indonesian, romanian, russian, 
+spanish, swahili, tagalog, tamil, welsh, 
+zulu, ...
 ```

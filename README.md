@@ -59,6 +59,6 @@ old-armenian, old-french, old-irish, old-saxon, pastho, persian,
 polish, portuguese, quechua, romanian, russian, sanskrit, 
 scottish-gaelic, serbo-croatian, slovak, slovene, sorani,
 spanish, swahili, swedish, tagalog, tamil, tatar, telugu, 
-tibetan, turkish, turkmen, ukrainian, urdu, uzbeck, venetian, welsh, 
+tibetan, turkish, turkmen, ukrainian, urdu, uzbek, venetian, welsh, 
 west-frisian, yiddish, zulu, ...
 ```

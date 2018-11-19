@@ -17,26 +17,26 @@ This software is at an **alpha** stage.
 Due to the size of DirecTL+ models, we do not include them here; please contact gnicola2 AT jhu DOT edu for pre-trained models.
 Uncompress DTL models into models/DTL directory. See **releases** tab above to download.
 
-```
+```bash
 tar -xvzf DTLModel.tgz
 ```
 
 Set environment variables to point to required binaries.
 
-```
+```bash
 export DTL=<location of DTL binary>
 export CTRANSLATE=<location of ctranslate binary>
 ```
 
 ## Usage
 
-```
+```bash
 python src/analyze.py -i input.wordlist -o output.analyses -l language
 ```
 
 For example:
 
-```
+```bash
 python analyze.py -i Welsh.toAnalyze -o Welsh.out -l welsh
 ```
 

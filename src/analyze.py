@@ -167,9 +167,9 @@ if models["NN"] != "NA":
         call([os.environ["CTRANSLATE"], "--model", models["NN"], "--batch_size", "64", "--beam_size", "12", "--src", "toAnalyze.txt", "--tgt", "analyzed.nn.out"])
         if(models["Format"] == "UD"):
             call(["python", "../scripts/postprocessUDNetOutput.py", "toAnalyze.txt", "analyzed.nn.out", "analyzed.out2"])
-	elif(models["Format"] == "UM"):
+        elif(models["Format"] == "UM"):
             call(["python", "../scripts/postprocessUMNetOutput.py", "toAnalyze.txt", "analyzed.nn.out", "analyzed.out2"])
-	elif(models["Format"] == "Tagalog"):
+        elif(models["Format"] == "Tagalog"):
             call(["python", "../scripts/postprocessTagalogNetOutput.py", "toAnalyze.txt", "analyzed.nn.out", "analyzed.out2"])
     
     except:

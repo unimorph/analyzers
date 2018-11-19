@@ -7,15 +7,15 @@ This software is at an **alpha** stage.
 
 ## Prerequisites
 
-[DirecTL+](https://github.com/GarrettNicolai/DTL)
+1. [DirecTL+](https://github.com/GarrettNicolai/DTL)
 
-[CTranslate](https://github.com/OpenNMT/CTranslate)
+2. [CTranslate](https://github.com/OpenNMT/CTranslate)
 
 
 
 ## Installation
-Due to the size of DirecTL+ models, we do not include them here; please contact gnicola2 AT jhu DOT edu for pre-trained models.
-Uncompress DTL models into models/DTL directory. See **releases** tab above to download.
+Due to the size of DirecTL+ models, we do not include them here; please contact `gnicola2 AT jhu DOT edu` for pre-trained models.
+Uncompress DTL models into models/DTL directory. See the [Releases](https://github.com/unimorph/analyzers/releases) tab above to download.
 
 ```bash
 tar -xvzf DTLModel.tgz

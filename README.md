@@ -31,13 +31,13 @@ export CTRANSLATE=<location of ctranslate binary>
 ## Usage
 
 ```
-python src/analyze.py -i input.wordlist -a output.analyses -l language
+python src/analyze.py -i input.wordlist -o output.analyses -l language
 ```
 
 For example:
 
 ```
-python analyze.py -i Welsh.toAnalyze -a Welsh.out -l welsh
+python analyze.py -i Welsh.toAnalyze -o Welsh.out -l welsh
 ```
 
 
